@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2683c2"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="27dp"
+        android:text="Enter Musical Notes"
+        android:textColor="#fff"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etnote"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="30dp"
+        android:background="#f3f3f3"
+        android:ems="10"
+        android:hint="Notes"
+        android:paddingLeft="5dp"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Note:Must be spaces between every note , and notes must be a1 ,a1s ,b1 ,c1 ,c1s ,c2s ,c2 ,d1 ,d1s ,e1 ,f1 ,f1s ,g1 ,g1s and &apos;.&apos; "
+        android:textColor="#fff"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/play"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="22dp"
+        android:background="#d67601"
+        android:text="Play"
+        
+        android:textColor="#fff"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/stop"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="22dp"
+        android:background="#d67601"
+        android:text="Stop"
+      
+        android:textColor="#fff"
+        android:textSize="18sp" />
+
+</LinearLayout>
